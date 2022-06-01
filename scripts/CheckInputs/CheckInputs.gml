@@ -13,6 +13,11 @@ function CheckInputs()
 	shoot = (mouse_check_button_pressed(mb_left))
 	
 	xDirection = right - left;
+	
+	if global.dash
+		{
+			global.dashing = true;
+		}
 
 	if left
 	{

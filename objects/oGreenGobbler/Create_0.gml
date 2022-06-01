@@ -6,8 +6,8 @@ global.isTransitioning = false;
 global.transitionTimer = 1;
 global.enterRight = false;
 global.enterLeft = false;
-global.col = 0;
-global.row = 0;
+//global.col = 0;
+//global.row = 0;
 
 // how many pixels per frame you want our player to move
 xSpeed = 5;
