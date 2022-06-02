@@ -1,0 +1,1 @@
+draw_text(50,630, "Go through the walls to escape");

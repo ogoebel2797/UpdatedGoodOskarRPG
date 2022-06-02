@@ -1,0 +1,1 @@
+draw_text(800,800, "You're mine, Weird Kid!");
