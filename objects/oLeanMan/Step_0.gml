@@ -31,6 +31,7 @@ if global.slide
 if global.sliding
 {
 	slideTimer -= 1/room_speed;
+	audio_play_sound(sSlide, 5, false)
 	if slideTimer <= 0
 	{
 		global.sliding = false;

@@ -4,6 +4,7 @@
 if keyboard_check_pressed(vk_shift)
 {
 	instance_change(oPlayer, false);
+	audio_play_sound(sExitSpaceship, 5, false)
 }
 
 
@@ -29,6 +30,7 @@ if haveHook
 	{
 		mouseX = mouse_x;
 		mouseY = mouse_y;
+		audio_play_sound(sGrapple, 5, false)
 		if (place_meeting(mouseX, mouseY, oWall))
 		{
 			hookActive = true;

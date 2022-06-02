@@ -1,4 +1,4 @@
-/*if global.enterLeft
+if global.enterLeft
 {
 	oPlayer.x = global.xPos + ((room_width - 64) - sprite_width);
 	oPlayer.y = global.yPos;
@@ -12,9 +12,8 @@ else if global.enterRight
 
 else
 {
-*/
-	oPlayer.x = 1400;
-	oPlayer.y = 920;
-	audio_play_sound(sLevelMusic, 5, false)
-	
-//}
+	oPlayer.x = ;
+	oPlayer.y = ;
+}
+
+audio_play_sound(sEndLevel, 5, false)
