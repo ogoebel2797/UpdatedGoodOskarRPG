@@ -9,34 +9,7 @@ function CheckCollisionsX()
 	{
 		image_xscale = xDirection;
 	}
-	
-	if global.dashing
-	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
-		{
-			global.dashing = false;
-			dashTimer = 0.3;
-		}
-		if (!place_empty(x + xVector, y))
-		{
-		xVector = 0;
-		}
-	
-		//otherwise move fast
-		if omniDirection = -1
-		{
-			x = x - 10;
-		}
-		if omniDirection = 1
-		{
-			x = x + 10;
-		}
-		audio_play_sound(sDash, 5, false)
-	}
 
-else
-	{
 	//Horizontal Movement
 	
 		if (place_meeting(x + xVector, y, oWall))
@@ -62,7 +35,6 @@ else
 			}
 			xVector = 0;
 	}
-	}
 //otherwise move normal
 x = x + xVector;
 
@@ -74,36 +46,7 @@ function CheckCollisionsY()
 	//Vertical Movement
 	yDirection = down - up;
 	yVector = ySpeed * yDirection;
-	if global.dashing
-	{
-		dashTimer -= 1/room_speed;
-		if dashTimer <= 0
-		{
-			global.dashing = false;
-			dashTimer = 0.3;
-		}
-		if (!place_empty(y + yVector, x))
-		{
-		yVector = 0;
-		}
-	
-		//otherwise move fast
-		if omniDirection = -2
-		{
-			y = y - 10;
-		}
-		if omniDirection = 2
-		{
-				y = y + 10;
-		}
-	
-		audio_play_sound(sDash, 5, false)
-	}
-	
-else
-{
 
-	
 		if (place_meeting(y + yVector, x, oWall))
 			{
 				//check if 1 pixel to the left or right of us until we collide with oWall
@@ -129,5 +72,4 @@ else
 			}
 		//otherwise move normal
 		y = y + yVector;
-}
 }

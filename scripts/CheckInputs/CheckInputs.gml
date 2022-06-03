@@ -7,7 +7,7 @@ function CheckInputs()
 	left = keyboard_check(ord("A"));
 	up = keyboard_check(ord("W"));
 	down = keyboard_check(ord("S"));
-	dash = keyboard_check_pressed(vk_left);
+	global.dash = keyboard_check_pressed(vk_left);
 	slide = keyboard_check_pressed(vk_left);
 	attack = keyboard_check_pressed(vk_left);
 	shoot = (mouse_check_button_pressed(mb_left))

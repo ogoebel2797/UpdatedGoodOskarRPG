@@ -55,7 +55,7 @@ enteredGobbler = false;
 enteredLean = false;
 
 dashing = false;
-dashTimer = 0.3;
+dashTimer = 1;
 
 attack = false;
 shooting = false;

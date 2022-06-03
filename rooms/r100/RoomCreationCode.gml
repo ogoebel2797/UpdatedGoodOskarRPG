@@ -12,8 +12,8 @@ else if global.enterRight
 
 else
 {
-	oPlayer.x = ;
-	oPlayer.y = ;
+	oPlayer.x = 0;
+	oPlayer.y = 0;
 }
 
 audio_play_sound(sEndLevel, 5, false)

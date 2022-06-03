@@ -11,3 +11,6 @@ draw_text(64 , 180, "yPos: " + string(global.yPos));
 //draw_text(64 , 284, "Transition Timer: " + string(global.transitionTimer));
 //draw_text(64 , 300, "Transition: " + string(global.isTransitioning));
 //draw_text(64 , 320, "objects destroyed: " + string(objectsDestroyed));
+draw_text(64 , 340, "Dash: " + string(global.dash));
+draw_text(64 , 360, "Dashing: " + string(global.dashing));
+draw_text(64 , 380, "Dash Timer: " + string(global.dashTimer));

@@ -3,20 +3,61 @@
 function StateGobblerDashing()
 {
 	//what does the state do?
+	CheckInputs();
+	audio_play_sound(sDash, 5, false)
+	dashTimer -= 1/room_speed;
+	if dashTimer <= 0
+	{
+		global.dashing = false;
+		dashTimer = 1;
+	}
+
+	//otherwise move fast
+	if global.dashing
+	{
+	
+		if omniDirection = -1
+		{
+			x = x - 10;
+		}
+		if omniDirection = 1
+		{
+			x = x + 10;
+		}
+	
+		if omniDirection = -2
+		{
+			y = y - 10;
+		}
+		if omniDirection = 2
+		{
+				y = y + 10;
+		}
+	}
+	
 	CheckCollisionsX();
 	CheckCollisionsY();
 	
+	if (!place_empty(x + xVector, y))
+	{
+	global.dashing = false;
+	dashTimer = 0.3;
+	}
+
+	if (!place_empty(x, y + yVector))
+	{
+	global.dashing = false;
+	dashTimer = 0.3;
+	}
+
 	//animations for the state
 	
 	//conditions for leaving the state
 	
-	if (xDirection !=0)
-	{
-		state = gstates.gwalking;
-	}
-
-	if (xDirection =0)
+	if dashing = false
 	{
 		state = gstates.gidle;
 	}
+
+
 }
