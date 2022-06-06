@@ -54,31 +54,12 @@ if haveGun = false
 	shooting = false;
 }
 
-if haveSword = true
-{
-	attack = true;
-}
-
-if haveSword = false
-{
-	attack = false;
-}
-
 if haveGun = true
 {
 	if (mouse_check_button_pressed(mb_left))
 		{
 			shoot = true;
 			audio_play_sound(sShoot, 5, false)
-		}
-}
-
-if haveSword = true
-{
-	if keyboard_check_pressed(vk_alt)
-		{
-			attack = true;
-			audio_play_sound(sLightsaberSwing, 5, false)
 		}
 }
 

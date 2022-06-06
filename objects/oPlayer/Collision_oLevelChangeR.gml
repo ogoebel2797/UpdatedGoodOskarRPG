@@ -10,5 +10,6 @@ if (!global.isTransitioning)
 		global.createdObjectID = 0;
 		global.col = global.col + 1;
 		room_goto(asset_get_index("r" + string(global.col) + string(global.row)));
+		audio_stop_all();
 	}
 }

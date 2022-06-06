@@ -53,7 +53,7 @@
     "spriteId": {"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

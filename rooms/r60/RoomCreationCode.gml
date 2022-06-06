@@ -15,3 +15,5 @@ else
 	oPlayer.x = 63;
 	oPlayer.y = 863;
 }
+
+audio_play_sound(sLevelMusic, 5, false)

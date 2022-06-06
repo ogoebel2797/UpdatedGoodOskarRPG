@@ -10,9 +10,8 @@ function StateGobblerIdle()
 		state = gstates.gwalking;
 	}
 	
-	if global.dash and place_empty(x + omniDirection*5, y)
+	if global.dashing and place_empty(x + omniDirection*5, y)
 	{
-		global.dashing = true;
 		state = gstates.gdashing;
 	}
 }

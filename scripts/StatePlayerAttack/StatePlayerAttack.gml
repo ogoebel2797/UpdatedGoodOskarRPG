@@ -10,6 +10,15 @@ function StatePlayerAttack()
 	
 	//conditions for leaving the state
 	
+if haveSword = true
+	{
+		if keyboard_check_pressed(vk_left)
+			{
+				attack = true;
+				audio_play_sound(sLightsaberSwing, 5, false)
+			}
+	}
+	
 	if (xDirection =0) & (haveGun = false) & (haveSword = false)
 	{
 		state = states.idle;

@@ -13,7 +13,7 @@ else if global.enterRight
 else
 {
 	oPlayer.x = 63;
-	oPlayer.y = 895;
+	oPlayer.y = 863;
 }
 
 audio_play_sound(sLevelMusic, 5, false)

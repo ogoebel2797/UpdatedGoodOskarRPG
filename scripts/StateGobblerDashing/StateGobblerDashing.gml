@@ -54,7 +54,7 @@ function StateGobblerDashing()
 	
 	//conditions for leaving the state
 	
-	if dashing = false
+	if global.dashing = false
 	{
 		state = gstates.gidle;
 	}

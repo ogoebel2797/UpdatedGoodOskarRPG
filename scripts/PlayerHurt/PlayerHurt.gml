@@ -28,6 +28,6 @@ function PlayerDeath()
 	global.col = 0;
 	instance_change(oPlayer, false);
 	instance_destroy(other);
-	room_goto(blankRoom0)
+	//room_goto(blankRoom0)
 	//room_goto(asset_get_index("r" + string(global.col) + string(global.row)));
 }
