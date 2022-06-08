@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sGreenGobblerIdle",
-    "path": "sprites/sGreenGobblerIdle/sGreenGobblerIdle.yy",
+    "name": "sMrSquigglesBoss",
+    "path": "sprites/sMrSquigglesBoss/sMrSquigglesBoss.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": {
-    "name": "oPlayer",
-    "path": "objects/oPlayer/oPlayer.yy",
+    "name": "oPersistency",
+    "path": "objects/oPersistency/oPersistency.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,8 +26,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerChange","path":"objects/oPlayerChange/oPlayerChange.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oSpaceship","path":"objects/oSpaceship/oSpaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGreenGobbler",
+  "name": "oMrSquigglesBoss",
   "tags": [],
   "resourceType": "GMObject",
 }

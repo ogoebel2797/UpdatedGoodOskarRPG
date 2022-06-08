@@ -4,3 +4,4 @@
 stun = true;
 xSpeed = 0;
 ySpeed = 0;
+PlayerHurt();

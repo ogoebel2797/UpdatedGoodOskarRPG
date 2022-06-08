@@ -4,7 +4,6 @@ function StateGobblerDashing()
 {
 	//what does the state do?
 	CheckInputs();
-	audio_play_sound(sDash, 5, false)
 	dashTimer -= 1/room_speed;
 	if dashTimer <= 0
 	{

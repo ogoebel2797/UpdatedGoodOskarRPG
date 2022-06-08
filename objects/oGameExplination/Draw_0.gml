@@ -3,7 +3,7 @@
 draw_text(32,100, "This Is Your Player, Interact With Your Body To Become Yourself Again");
 draw_text(32,150, "Collect Coins To Earn Points");
 draw_text(32,200, "Dont Touch The Enemies, And Dont Let Them Shoot At You");
-draw_text(32,250, "Touch The Flag When You're Done To Move Onto The Next Level");
+//draw_text(32,250, "Touch The Flag When You're Done To Move Onto The Next Level");
 draw_text(32,300, "Interact With Green Gobbler's Head To Turn Into It");
 draw_text(32,350, "Drink (Interact With) The Lean To Turn Into Lean Man");
 draw_text(32,400, "Dont Let The Projectiles Hit You");

@@ -1,1 +1,3 @@
-draw_text(50,630, "Go through the walls to escape");
+//objects
+
+//draw_text(32,800, "My powers are gone!");

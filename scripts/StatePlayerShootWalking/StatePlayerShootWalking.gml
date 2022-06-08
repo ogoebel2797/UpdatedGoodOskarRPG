@@ -23,6 +23,7 @@ function StatePlayerShootWalking()
 	if (attack = true) & (haveGun = false) & (haveSword = true)
 	{
 		state = states.attack;
+		enterGobbler = false;
 	}
 
 	if (xDirection =0) & (haveGun = true) & (haveSword = false)

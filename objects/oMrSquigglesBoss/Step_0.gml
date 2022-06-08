@@ -11,18 +11,18 @@ if (isInvincible)
 	}
 }
 
-xDirection = sign(oPlayer.x - x);
+xDirection = sign(oGreenGobbler.x - x);
 xVector = xSpeed * xDirection;
 
-if (abs(oPlayer.x - x) < 128)
+if (abs(oGreenGobbler.x - x) < 128)
 {
 	x = x + xVector
 }
 
-yDirection = sign(oPlayer.y - y);
+yDirection = sign(oGreenGobbler.y - y);
 yVector = ySpeed * yDirection;
 
-if (abs(oPlayer.y - y) < 128)
+if (abs(oGreenGobbler.y - y) < 128)
 {
 	y = y + yVector
 }

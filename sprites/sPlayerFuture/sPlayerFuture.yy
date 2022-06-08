@@ -35,7 +35,7 @@
     "spriteId": {"name":"sPlayerFuture","path":"sprites/sPlayerFuture/sPlayerFuture.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 60.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
