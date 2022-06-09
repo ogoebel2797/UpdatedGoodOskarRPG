@@ -16,4 +16,4 @@ else
 	oPlayer.y = 895;
 }
 
-audio_play_sound(sLevelMusic, 5, false)
+audio_play_sound(sBossFight, 5, false)
