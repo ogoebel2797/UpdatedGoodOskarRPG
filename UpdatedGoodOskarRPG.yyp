@@ -37,6 +37,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"oMrSquigglesDialogue1","path":"objects/oMrSquigglesDialogue1/oMrSquigglesDialogue1.yy",},"order":30,},
     {"id":{"name":"oPlayerDialogue6","path":"objects/oPlayerDialogue6/oPlayerDialogue6.yy",},"order":59,},
+    {"id":{"name":"oEndFlag","path":"objects/oEndFlag/oEndFlag.yy",},"order":61,},
     {"id":{"name":"oPlayerAndPlayerFutureDialogue","path":"objects/oPlayerAndPlayerFutureDialogue/oPlayerAndPlayerFutureDialogue.yy",},"order":56,},
     {"id":{"name":"sGrapple","path":"sounds/sGrapple/sGrapple.yy",},"order":9,},
     {"id":{"name":"sLightsaberIgnite","path":"sounds/sLightsaberIgnite/sLightsaberIgnite.yy",},"order":2,},

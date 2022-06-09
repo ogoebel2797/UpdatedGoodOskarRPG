@@ -11,4 +11,6 @@ draw_text(64 , 140, "Level Time Remaining: " +string(floor(levelTimer)));
 //draw_text(64 , 284, "Transition Timer: " + string(global.transitionTimer));
 //draw_text(64 , 300, "Transition: " + string(global.isTransitioning));
 //draw_text(64 , 320, "objects destroyed: " + string(objectsDestroyed));
-
+draw_text(64 , 340, "Column: " + string(global.col));
+draw_text(64 , 360, "Row: " + string(global.row));
+//draw_text(64 , 380, "Level Name: " + string());
